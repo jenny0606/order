@@ -4,5 +4,6 @@ public class FamilyDelivery extends Delivery{
     public FamilyDelivery(){
         shipFeed=60;
         name="family";
+        price=700;
     }
 }

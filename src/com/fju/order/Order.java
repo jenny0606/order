@@ -13,4 +13,9 @@ public class Order {
     public int total() {
         return  (amount+ delivery.price);
     }
+
+
+    public  int getShipFeed(){
+        return shipFeed;
+    }
 }
